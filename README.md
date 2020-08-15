@@ -1,6 +1,6 @@
 # Smart mirror project
 
-# Build instrunctions
+# Build instructions
 
 * mkdir bin
 * cd bin
