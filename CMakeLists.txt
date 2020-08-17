@@ -14,4 +14,5 @@ if ( OpenCV_FOUND )
 endif (OpenCV_FOUND)
 
 
+install(TARGETS smart_mirror)
 
