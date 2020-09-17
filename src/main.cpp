@@ -118,7 +118,7 @@ int main(int argc, char** argv )
 		// pixels from 0-255 that represents how each square will be
 		// angled
 
-		cv::imshow("This is you!", absolute_frame);
+		cv::imshow("This is you!", diff_frame);
 		//cv::imshow("This is you!", destination_frame);
 		// Display image for 10milliseconds or until key '27' is pressed. This function needs to immediately follow cv::imshow or no image will be displayed.
 		if (cv::waitKey(1) == 27 )

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(smart_mirror)
 
-add_executable(smart_mirror main.cpp)
+add_subdirectory (src)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake-modules)
 
