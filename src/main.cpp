@@ -3,6 +3,7 @@
 #include <opencv4/opencv2/core/types.hpp>
 #include <stdio.h>
 #include <unistd.h>
+#include <speeddemon.cpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
