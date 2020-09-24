@@ -1,12 +1,17 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.16.5)
+
+# For YCM and clangd
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake-modules)
 
 project(smart_mirror)
 
 add_subdirectory (src)
 add_subdirectory (lib)
 
-
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake-modules)
 
 # Opencv
 find_package( OpenCV REQUIRED )
